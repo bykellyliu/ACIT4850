@@ -34,6 +34,7 @@
 class Game {
 
     var $position;
+    var $newposition;
 
     function __construct($squares) {
         $this->position = str_split($squares);
